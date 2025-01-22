@@ -15,14 +15,14 @@ const GridPage = () => {
             }}
           >
             <div className="text-white text-xl font-bold">
-              <img src="https://i.postimg.cc/N0f5fcNT/logo1-aa59d10dce000c1b6a45.png"/>
+              <img src="https://i.postimg.cc/Pr4fR74R/7ba64b8de0cf18c61a2e93d713cd78f6.png"/>
             </div>
           </div>
 
 
           {/* E-cell Logo Section */}
           <div className="bg-white rounded-lg p-6 aspect-square flex items-center justify-center">
-            <img src="https://postimg.cc/4mYTKBj6" alt="" />
+            <img src="https://i.postimg.cc/N0f5fcNT/logo1-aa59d10dce000c1b6a45.png" alt="" />
           </div>
 
           {/* Color Grid Section */}
