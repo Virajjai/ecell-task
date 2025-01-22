@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ff0066, #6e0dd0);
+  color: white;
+  overflow: hidden;
+}
+
+.squid-game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+/* Add background image to the entire container */
+.squid-game-container {
+  background: url('public/46433-3840x2160-desktop-4k-squid-game-background-image.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 1; /* Adjust transparency */
+}
+
+/* Profile Card */
+.profile-card {
+  background: #1a1a1a;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+.image-container {
+  border-radius: 70%;
+  overflow: hidden;
+  margin: 0 auto 20px auto;
+  width: 230px;
+  height: 170px;
+  border: 3px solid #ff0066;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.name-image {
+  max-width: 100%; /* Ensures the image scales properly */
+  height: auto;
+  margin-bottom: 10px; /* Adds some spacing below the image */
+}
+
+
+.registration-number {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.registration-number-image {
+  max-width: 100%; /* Ensures the image scales properly */
+  height: auto;
+  margin-bottom: 10px; /* Adds some spacing below the image */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.redirect-button,
+.portfolio-button {
+  background: #ff0066;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.redirect-button:hover,
+.portfolio-button:hover {
+  transform: scale(1.1);
+  background: #ff3366;
+}
+
+/* Circular Mask */
+.mask-container {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.mask-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  animation: float-mask 6s ease-in-out infinite;
+}
+
+.mask-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes float-mask {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Background Figures */
+.background-figures {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.figure {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  opacity: 0.8;
+  animation: float-symbols 5s ease-in-out infinite;
+}
+
+.figure.circle {
+  border-radius: 50%;
+}
+
+.figure.triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid rgba(255, 255, 255, 0.3);
+}
+
+.figure.square {
+  border-radius: 5px;
+}
+
+@keyframes float-symbols {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Transparent Cards with Images */
+.game-card {
+  position: absolute;
+  width: 80px;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  animation: float-cards 8s ease-in-out infinite;
+  background-size: cover; /* Makes the image cover the entire card */
+  background-position: center; /* Centers the image */
+}
+
+/* Add individual images for each card */
+.game-card.circle {
+  top: 50%;
+  left: 15%;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJzquYdvoWxd2eq44Lq9sd9XM5h-xqtBxhWg&s'); /* Replace with your circle image */
+}
+
+.game-card.triangle {
+  top: 40%;
+  left: 70%;
+  background-image: url('D:\ecell\public\lxlxsghlaiq71.jpg'); /* Replace with your triangle image */
+}
+
+.game-card.square {
+  bottom: 20%;
+  right: 30%;
+  background-image: url('https://i.pinimg.com/236x/20/1e/25/201e2549960391fc2a63ab020e9825df.jpg'); /* Replace with your square image */
+}
+
+.symbol-container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.symbol {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  animation: rotate-symbol 4s linear infinite;
+}
+
+.symbol.circle {
+  border-radius: 50%;
+}
+
+.symbol.triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid rgba(255, 255, 255, 0.6);
+}
+
+.symbol.square {
+  border-radius: 5px;
+}
+
+@keyframes rotate-symbol {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
