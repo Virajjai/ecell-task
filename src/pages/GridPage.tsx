@@ -15,7 +15,7 @@ const GridPage = () => {
             }}
           >
             <div className="text-white text-xl font-bold">
-              <img src="public\7ba64b8de0cf18c61a2e93d713cd78f6.png"/>
+              <img src="/7ba64b8de0cf18c61a2e93d713cd78f6.png"/>
             </div>
           </div>
 

@@ -18,19 +18,19 @@ const HomePage = () => {
         <div className="profile-card">
           <div className="image-container">
             <img
-              src="public\the-boys-billy-butcher.gif" // Replace with your picture link
+              src="/the-boys-billy-butcher.gif" // Replace with your picture link
               alt="Your Profile"
               className="profile-picture"
             />
           </div>
           <div className="details">
             <img
-              src="public\7ba64b8de0cf18c61a2e93d713cd78f6.png" // Replace this with the link to your Squid Game font image
+              src="/7ba64b8de0cf18c61a2e93d713cd78f6.png" // Replace this with the link to your Squid Game font image
               alt="Your Name in Squid Game Font"
               className="name-image"
             />
             <img
-              src="public\2327c7d43e5c61a516b0b0cc477dbe6f.png" // Replace this with the link to your Squid Game font registration number image
+              src="/2327c7d43e5c61a516b0b0cc477dbe6f.png" // Replace this with the link to your Squid Game font registration number image
               alt="Registration Number in Squid Game Font"
               className="registration-number-image"
             />
