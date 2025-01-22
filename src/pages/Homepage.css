@@ -16,7 +16,7 @@ body {
 }
 /* Add background image to the entire container */
 .squid-game-container {
-  background: url('public/46433-3840x2160-desktop-4k-squid-game-background-image.jpg') no-repeat center center;
+  background: url('https://postimg.cc/cgFVCnmk') no-repeat center center;
   background-size: cover;
   opacity: 1; /* Adjust transparency */
 }
@@ -192,7 +192,7 @@ body {
 .game-card.triangle {
   top: 40%;
   left: 70%;
-  background-image: url('/lxlxsghlaiq71.jpg'); /* Replace with your triangle image */
+  background-image: url('https://postimg.cc/QF5GmV8V'); /* Replace with your triangle image */
 }
 
 .game-card.square {

@@ -22,7 +22,7 @@ const GridPage = () => {
 
           {/* E-cell Logo Section */}
           <div className="bg-white rounded-lg p-6 aspect-square flex items-center justify-center">
-            <img src="/logo1.aa59d10dce000c1b6a45.png" alt="" />
+            <img src="https://postimg.cc/4mYTKBj6" alt="" />
           </div>
 
           {/* Color Grid Section */}
