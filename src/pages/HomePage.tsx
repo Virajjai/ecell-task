@@ -2,7 +2,7 @@ import React from 'react';
 import '../pages/Homepage.css';
 import Navbar from '../components/Navbar';
 
-const SquidGamePage = () => {
+const HomePage = () => {
   const redirectToInstagram = () => {
     window.open('https://www.instagram.com/yehaiviraj/', '_blank'); // Replace with your Instagram URL
   };
@@ -78,4 +78,4 @@ const SquidGamePage = () => {
   );
 };
 
-export default SquidGamePage;
+export default HomePage;
