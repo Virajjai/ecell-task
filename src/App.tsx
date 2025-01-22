@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import GridPage from './pages/GridPage';
-import HomePage from './pages/HomePage';
+import GridPage from './pages/GridPage.tsx';
+import HomePage from './pages/HomePage.tsx';
 
 function App() {
   return (
