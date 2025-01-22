@@ -1,5 +1,5 @@
 import React from 'react';
-import './HomePage.css';
+import '../pages/Homepage.css';
 import Navbar from '../components/Navbar';
 
 const SquidGamePage = () => {
