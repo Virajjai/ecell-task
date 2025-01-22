@@ -25,13 +25,13 @@ const HomePage = () => {
           </div>
           <div className="details">
             <img
-              src="https://postimg.cc/4mYTKBj6" // Replace this with the link to your Squid Game font image
-              alt="Your Name in Squid Game Font"
+              src="https://i.postimg.cc/Pr4fR74R/7ba64b8de0cf18c61a2e93d713cd78f6.png" // Replace this with the link to your Squid Game font image
+              alt="Viraj Jaiswal"
               className="name-image"
             />
             <img
-              src="https://postimg.cc/pyXvv2Z1" // Replace this with the link to your Squid Game font registration number image
-              alt="Registration Number in Squid Game Font"
+              src="https://i.postimg.cc/ZY65rnyZ/2327c7d43e5c61a516b0b0cc477dbe6f.png" // Replace this with the link to your Squid Game font registration number image
+              alt="Registration Number : 20236155"
               className="registration-number-image"
             />
             <div className="button-container">
